@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'The more you know, the better you choose',
+    subheading: 'Zentinela provides tailored OSINT investigations using proven, lawful methods. Our experts uncover public data to bring clarity for businesses and individuals.',
     centerImageSrc: '/images/hero-mockup.webp',
 }
