@@ -3,7 +3,7 @@ import { IPricing } from "@/types";
 export const tiers: IPricing[] = [
     {
         name: 'Relationship Intel Suite',
-        price: $299 AUD,
+        price: 299,
         features: [
             'Basic cloud integration',
             'Up to 5 team members',
@@ -13,7 +13,7 @@ export const tiers: IPricing[] = [
     },
     {
         name: 'HR Shield OSINT',
-        price: $299 AUD,
+        price: 299,
         features: [
             'Advanced cloud integration',
             'Up to 20 team members',
