@@ -9,6 +9,7 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Services:",
+                description: "",
                 icon: <FiBarChart2 size={26} />
             },
             {
@@ -30,6 +31,7 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Services:",
+                description: "",
                 icon: <FiDollarSign size={26} />
             },
             {
@@ -51,6 +53,7 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Services:",
+                description: "",
                 icon: <FiLock size={26} />
             },
             {
