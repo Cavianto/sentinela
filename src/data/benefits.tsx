@@ -9,7 +9,7 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Third-Party Compliance Monitoring",
-                description: "Continuously track vendors, suppliers, and partners for emerging risks, sanctions violations, or reputation threats.",
+                description: "Track vendors, suppliers, and partners for emerging risks, sanctions, or reputation threats.",
                 icon: <FiBarChart2 size={26} />
             },
             {
@@ -30,8 +30,8 @@ export const benefits: IBenefit[] = [
         description: "Eliminate hiring risks with our professional screening services. We verify employment history, credentials and online behavior through legally compliant OSINT methods to protect your organization.",
         bullets: [
             {
-                title: "Services:",
-                description: "",
+                title: "Ongoing Employee Integrity Monitoring",
+                description: "Continuous screening of current employees for emerging red flags—from leaked data exposures to harmful online behavior",
                 icon: <FiDollarSign size={26} />
             },
             {
@@ -52,8 +52,8 @@ export const benefits: IBenefit[] = [
         description: "Discreetly analyze connections and protect against online risks with our OSINT solutions. We map influential relationships while monitoring reputational threats - through legal, open-source methods.",
         bullets: [
             {
-                title: "Services:",
-                description: "",
+                title: "Romantic Partner Background Verification",
+                description: "Validate dating partners or potential spouses for hidden criminal records, financial liabilities, or deceptive identities.",
                 icon: <FiLock size={26} />
             },
             {
