@@ -8,8 +8,8 @@ export const benefits: IBenefit[] = [
         description: "Mitigate business risks with our OSINT solutions. We verify partners, uncovering litigation and hidden risks and conduct M&A due diligence to expose financial red flags, using legally compliant methods.",
         bullets: [
             {
-                title: "Services:",
-                description: "",
+                title: "Third-Party Compliance Monitoring",
+                description: "Continuously track vendors, suppliers, and partners for emerging risks, sanctions violations, or reputation threats.",
                 icon: <FiBarChart2 size={26} />
             },
             {
