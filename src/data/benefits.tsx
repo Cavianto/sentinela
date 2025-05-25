@@ -1,4 +1,4 @@
-import { FiUsers, FiCheck, FiKey, FiUserCheck, FiBriefcas, FiUnlock, FiHeart, FiUser, FiShield } from "react-icons/fi";
+import { FiUsers, FiCheck, FiKey, FiUserCheck, FiBriefcase, FiUnlock, FiHeart, FiUser, FiShield } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
 
@@ -37,7 +37,7 @@ export const benefits: IBenefit[] = [
             {
                 title: "Candidate & employee vetting",
                 description: "Verify credentials, past behavior, and online activity to ensure trustworthy hires.",
-                icon: <FiBriefcas size={26} />
+                icon: <FiBriefcase size={26} />
             },
             {
                 title: "Background & digital footprint checks",
