@@ -9,7 +9,6 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Services:",
-                description: "",
                 icon: <FiBarChart2 size={26} />
             },
             {
