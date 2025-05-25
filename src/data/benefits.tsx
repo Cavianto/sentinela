@@ -10,7 +10,7 @@ export const benefits: IBenefit[] = [
             {
                 title: "Services:",
                 description: "",
-                icon: <FiBarChart2 size={26} />
+                icon: < size={26} />
             },
             {
                 title: "Business partner evaluation",
@@ -20,7 +20,7 @@ export const benefits: IBenefit[] = [
             {
                 title: "Investment & merger due diligence",
                 description: "Investigate assets and entities to expose financial or operational red flags.",
-                icon: <FiTrendingUp size={26} />
+                icon: <FiLock size={26} />
             }
         ],
         imageSrc: "/images/mockup-1.webp"
