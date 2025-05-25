@@ -3,20 +3,20 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is OSINT legal for background checks or due diligence?`,
-        answer: 'Absolutely. We only access publicly available information (social media, court records, corporate filings). For HR vetting or M&A due diligence, we comply with GDPR, FCRA, and local privacy laws—always documenting our legally compliant methodology.',
+        question: `Is ${siteDetails.siteName} secure?`,
+        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
     },
     {
-        question: `How long does a typical investigation take?`,
-        answer: 'Most standard checks (employment vetting, partner screening) take 24–72 hours. Complex cases (hidden asset tracing, network mapping) require 5–7 days. We offer rush services for urgent threats.',
+        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
+        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
     },
     {
-        question: 'Can you investigate internationally?',
-        answer: `Yes. Our multilingual team tracks global data—from offshore company registries to international sanctions lists. Note: Some countries restrict certain searches (e.g., China’s social media), which we’ll clarify upfront.`
+        question: 'Can I connect all my bank accounts?',
+        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
     },
     {
-        question: 'How does the process of engaging with Zentinela work?',
-        answer: 'Yes',
+        question: 'Do I need any financial expertise to use the investing features?',
+        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
     },
     {
         question: 'What if I need help using the app?',
