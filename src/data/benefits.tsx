@@ -5,7 +5,7 @@ import { IBenefit } from "@/types"
 export const benefits: IBenefit[] = [
     {
         title: "Corporate Shield OSINT: Complete Partner Vetting & M&A Risk Intelligence",
-        description: "Mitigate business risks with our OSINT solutions. We verify partners—uncovering litigation and hidden risks—and conduct M&A due diligence to expose financial red flags, using legally compliant methods.",
+        description: "Mitigate business risks with our OSINT solutions. We verify partners, uncovering litigation and hidden risks—and conduct M&A due diligence to expose financial red flags, using legally compliant methods.",
         bullets: [
             {
                 title: "Services:",
@@ -25,44 +25,42 @@ export const benefits: IBenefit[] = [
         imageSrc: "/images/mockup-1.webp"
     },
     {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "HR Shield OSINT: Complete Candidate Vetting & Digital Background Intelligence",
+        description: "Eliminate hiring risks with our professional screening services. We verify employment history, credentials and online behavior through legally compliant OSINT methods to protect your organization.",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
+                title: "Services:",
                 icon: <FiDollarSign size={26} />
             },
             {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
+                title: "Candidate & employee vetting",
+                description: "Verify credentials, past behavior, and online activity to ensure trustworthy hires.",
                 icon: <FiBriefcase size={26} />
             },
             {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
+                title: "Background & digital footprint checks",
+                description: "Analyze public records and online traces to uncover hidden risks or discrepancies.",
                 icon: <FiPieChart size={26} />
             }
         ],
         imageSrc: "/images/mockup-2.webp"
     },
     {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+        title: "Relationship Intel Suite: Network Mapping & Threat Monitoring",
+        description: "Discreetly analyze connections and protect against online risks with our OSINT solutions. We map influential relationships while monitoring reputational threats - through legal, open-source methods.",
         bullets: [
             {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
+                title: "Services:",
                 icon: <FiLock size={26} />
             },
             {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
+                title: "Personal relationship mapping",
+                description: "Identify key connections and networks to assess influence or potential conflicts.",
                 icon: <FiUser size={26} />
             },
             {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
+                title: "Reputation & threat monitoring",
+                description: "Track online presence for defamation, leaks, or emerging security threats.",
                 icon: <FiShield size={26} />
             }
         ],
