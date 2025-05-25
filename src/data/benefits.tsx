@@ -4,17 +4,17 @@ import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "Corporate Shield OSINT: Complete Partner Vetting & M&A Risk Intelligence",
+        description: "Mitigate business risks with our OSINT solutions. We verify partners—uncovering litigation and hidden risks—and conduct M&A due diligence to expose financial red flags, using legally compliant methods.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
+                title: "Business partner evaluation",
+                description: "Scrutinize associates for credibility, litigation, or undisclosed affiliations.",
                 icon: <FiBarChart2 size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
+                title: "Investment & merger due diligence",
+                description: "Investigate assets and entities to expose financial or operational red flags.",
                 icon: <FiTarget size={26} />
             },
             {
