@@ -32,7 +32,7 @@ export const benefits: IBenefit[] = [
             {
                 title: "Ongoing Employee Integrity Monitoring",
                 description: "Continuous screening of current employees for emerging red flags—from leaked data exposures to harmful online behavior",
-                icon: <FiUserKey size={26} />
+                icon: <FiUserCheck size={26} />
             },
             {
                 title: "Candidate & employee vetting",
