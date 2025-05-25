@@ -3,7 +3,7 @@ import { IPricing } from "@/types";
 export const tiers: IPricing[] = [
     {
         name: 'Relationship Intel Suite',
-        price: 299,
+        price: 249,
         features: [
             'Basic cloud integration',
             'Up to 5 team members',
