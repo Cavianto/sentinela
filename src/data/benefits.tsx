@@ -1,4 +1,4 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiUser } from "react-icons/fi";
+import { FiUsers, FiCheck, FiKey, FiUserCheck, FiBriefcas, FiUnlock, FiHeart, FiUser, FiShield } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
 
@@ -10,17 +10,17 @@ export const benefits: IBenefit[] = [
             {
                 title: "Third-Party Compliance Monitoring",
                 description: "Track vendors, suppliers, and partners for emerging risks, sanctions, or reputation threats.",
-                icon: <FiBarChart2 size={26} />
+                icon: <FiUsers size={26} />
             },
             {
                 title: "Business partner evaluation",
                 description: "Scrutinize associates for credibility, litigation, or undisclosed affiliations.",
-                icon: <FiTarget size={26} />
+                icon: <FiCheck size={26} />
             },
             {
                 title: "Investment & merger due diligence",
                 description: "Investigate assets and entities to expose financial or operational red flags.",
-                icon: <FiLock size={26} />
+                icon: <FiKey size={26} />
             }
         ],
         imageSrc: "/images/mockup-1.webp"
@@ -32,17 +32,17 @@ export const benefits: IBenefit[] = [
             {
                 title: "Ongoing Employee Integrity Monitoring",
                 description: "Continuous screening of current employees for emerging red flags—from leaked data exposures to harmful online behavior",
-                icon: <FiDollarSign size={26} />
+                icon: <FiUserKey size={26} />
             },
             {
                 title: "Candidate & employee vetting",
                 description: "Verify credentials, past behavior, and online activity to ensure trustworthy hires.",
-                icon: <FiBriefcase size={26} />
+                icon: <FiBriefcas size={26} />
             },
             {
                 title: "Background & digital footprint checks",
                 description: "Analyze public records and online traces to uncover hidden risks or discrepancies.",
-                icon: <FiPieChart size={26} />
+                icon: <FiUnlock size={26} />
             }
         ],
         imageSrc: "/images/mockup-2.webp"
@@ -54,7 +54,7 @@ export const benefits: IBenefit[] = [
             {
                 title: "Romantic Partner Background Verification",
                 description: "Validate dating partners or potential spouses for hidden criminal records, financial liabilities, or deceptive identities.",
-                icon: <FiLock size={26} />
+                icon: <FiHeart size={26} />
             },
             {
                 title: "Personal relationship mapping",
