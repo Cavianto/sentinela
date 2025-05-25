@@ -3,8 +3,8 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `Is OSINT legal for background checks or due diligence?`,
+        answer: 'Absolutely. We only access publicly available information (social media, court records, corporate filings). For HR vetting or M&A due diligence, we comply with GDPR, FCRA, and local privacy laws—always documenting our legally compliant methodology.',
     },
     {
         question: `Can I use ${siteDetails.siteName} on multiple devices?`,
