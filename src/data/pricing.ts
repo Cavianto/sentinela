@@ -5,10 +5,13 @@ export const tiers: IPricing[] = [
         name: 'Relationship Intel Suite',
         price: 249,
         features: [
-            'Basic cloud integration',
-            'Up to 5 team members',
-            '20GB storage',
-            'Email support',
+            'Influence Network Mapping',
+            'Romantic Partner Vetting',
+            'Reputation Threat Alerts',
+            'Dark Web Exposure Scans',
+            'Crisis Mitigation Reports',
+            'Legal Admissibility Guarantee',
+            'Executive Protection Packages',
         ],
     },
     {
