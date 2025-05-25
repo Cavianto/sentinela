@@ -49,7 +49,7 @@ export const benefits: IBenefit[] = [
     },
     {
         title: "Relationship Intel Suite: Network Mapping & Threat Monitoring",
-        description: "Discreetly analyze connections and protect against online risks with our OSINT solutions. We map influential relationships while monitoring reputational threats - through legal, open-source methods.",
+        description: "Discreetly analyze connections and protect against online risks with our OSINT solutions. We map influential relationships while monitoring reputational threats through legal, open-source methods.",
         bullets: [
             {
                 title: "Romantic Partner Background Verification",
