@@ -10,7 +10,7 @@ export const benefits: IBenefit[] = [
             {
                 title: "Services:",
                 description: "",
-                icon: <FiLock size={26} />
+                icon: <FiTarget size={26} />
             },
             {
                 title: "Business partner evaluation",
