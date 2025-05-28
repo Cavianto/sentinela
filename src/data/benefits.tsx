@@ -26,7 +26,7 @@ export const benefits: IBenefit[] = [
         imageSrc: "/images/mockup-1.webp"
     },
     {
-        title: "Sentinel Watch OSINT™: Ongoing Employee Integrity Monitoring",
+        title: "Sentinel Watch OSINT: Ongoing Employee Integrity Monitoring",
         description: "Maintain a high-trust work environment by continuously screening your workforce for emerging digital threats, reputational risks, or behavior shifts—before they become liabilities.",
         bullets: [
             {
