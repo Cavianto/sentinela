@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
                 <p className="mt-4 text-foreground max-w-lg mx-auto">{heroDetails.subheading}</p>
                 <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
                     <a
-                        href="#Prices"
+                        href="#pricing"
                         className="flex items-center justify-center min-w-[140px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit text-white bg-foreground font-semibold text-lg transition hover:bg-opacity-80"
                     >
                         Pricing
