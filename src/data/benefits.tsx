@@ -8,8 +8,8 @@ export const benefits: IBenefit[] = [
         description: "Eliminate hiring risks with our professional screening services. We verify employment history, credentials and online behavior through legally compliant OSINT methods to protect your organization.",
         bullets: [
             {
-                title: "Ongoing Employee Integrity Monitoring",
-                description: "Continuous screening of current employees for emerging red flags—from leaked data exposures to harmful online behavior.",
+                title: "Social Media & Online Behavior Analysis",
+                description: "Assess public posts, interactions, and affiliations to detect potential reputational risks, toxic behavior, or alignment with extremist ideologies.",
                 icon: <FiUsers size={26} />
             },
             {
@@ -26,8 +26,8 @@ export const benefits: IBenefit[] = [
         imageSrc: "/images/mockup-1.webp"
     },
     {
-        title: "HR Shield OSINT: Complete Candidate Vetting & Digital Background Intelligence",
-        description: "Eliminate hiring risks with our professional screening services. We verify employment history, credentials and online behavior through legally compliant OSINT methods to protect your organization.",
+        title: "Sentinel Watch OSINT™: Ongoing Employee Integrity Monitoring",
+        description: "Maintain a high-trust work environment by continuously screening your workforce for emerging digital threats, reputational risks, or behavior shifts—before they become liabilities.",
         bullets: [
             {
                 title: "Ongoing Employee Integrity Monitoring",
@@ -35,13 +35,13 @@ export const benefits: IBenefit[] = [
                 icon: <FiUserCheck size={26} />
             },
             {
-                title: "Candidate & employee vetting",
-                description: "Verify credentials, past behavior, and online activity to ensure trustworthy hires.",
+                title: "Social & Behavioral Pulse Monitoring",
+                description: "Analyze publicly available social media posts, comments, and affiliations to identify behavioral red flags such as aggressive rhetoric, discriminatory behavior, or radicalization.",
                 icon: <FiBriefcase size={26} />
             },
             {
-                title: "Background & digital footprint checks",
-                description: "Analyze public records and online traces to uncover hidden risks or discrepancies.",
+                title: "Reputation Protection Scans",
+                description: "Ongoing scans for media mentions, complaints, or public controversies tied to employees that may pose PR, legal, or operational risk.",
                 icon: <FiUnlock size={26} />
             }
         ],
