@@ -4,22 +4,22 @@ import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Corporate Shield OSINT: Complete Partner Vetting & M&A Risk Intelligence",
-        description: "Mitigate business risks with our OSINT solutions. We verify partners, uncovering litigation and hidden risks and conduct M&A due diligence to expose financial red flags, using legally compliant methods.",
+        title: "HR Shield OSINT: Complete Candidate Vetting & Digital Background Intelligence",
+        description: "Eliminate hiring risks with our professional screening services. We verify employment history, credentials and online behavior through legally compliant OSINT methods to protect your organization.",
         bullets: [
             {
-                title: "Third-Party Compliance Monitoring",
-                description: "Track vendors, suppliers, and partners for emerging risks, sanctions, or reputation threats.",
+                title: "Ongoing Employee Integrity Monitoring",
+                description: "Continuous screening of current employees for emerging red flags—from leaked data exposures to harmful online behavior.",
                 icon: <FiUsers size={26} />
             },
             {
-                title: "Business partner evaluation",
-                description: "Scrutinize associates for credibility, litigation, or undisclosed affiliations.",
+                title: "Candidate & employee vetting",
+                description: "Verify credentials, past behavior, and online activity to ensure trustworthy hires.",
                 icon: <FiCheck size={26} />
             },
             {
-                title: "Investment & merger due diligence",
-                description: "Investigate assets and entities to expose financial or operational red flags.",
+                title: "Background & digital footprint checks",
+                description: "Analyze public records and online traces to uncover hidden risks or discrepancies.",
                 icon: <FiKey size={26} />
             }
         ],
