@@ -14,7 +14,7 @@ const CTA: React.FC = () => {
                         <p className="mx-auto max-w-xl md:px-5">{ctaDetails.subheading}</p>
                         <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
                             <a
-                                href="#Pricing"
+                                href="#pricing"
                                 className="flex items-center justify-center min-w-[140px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit text-white bg-foreground font-semibold text-lg transition hover:bg-opacity-80"
                             >
                                 Pricing
