@@ -1,8 +1,5 @@
 import { ctaDetails } from "@/data/cta"
 
-// import AppStoreButton from "./AppStoreButton"
-// import PlayStoreButton from "./PlayStoreButton"
-
 const CTA: React.FC = () => {
     return (
         <section id="cta" className="mt-10 mb-5 lg:my-20">
@@ -14,13 +11,22 @@ const CTA: React.FC = () => {
 
                     <div className="h-full flex flex-col items-center justify-center text-white text-center px-5">
                         <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">{ctaDetails.heading}</h2>
-
                         <p className="mx-auto max-w-xl md:px-5">{ctaDetails.subheading}</p>
-
-                        {/* Removed AppStore and PlayStore buttons */}
                         <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
-                            {/* <AppStoreButton /> */}
-                            {/* <PlayStoreButton /> */}
+                            <a
+                                href="#Prices"
+                                className="flex items-center justify-center min-w-[140px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit text-white bg-foreground font-semibold text-lg transition hover:bg-opacity-80"
+                            >
+                                Pricing
+                            </a>
+                            <a
+                                href="https://cavianto.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center justify-center min-w-[140px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit text-foreground bg-white font-semibold text-lg border border-foreground transition hover:bg-gray-100"
+                            >
+                                Get Started
+                            </a>
                         </div>
                     </div>
                 </div>
