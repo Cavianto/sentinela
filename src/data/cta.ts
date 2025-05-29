@@ -1,6 +1,6 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
+    heading: 'See What OSINT Can Reveal Instantly and Securely',
+    subheading: 'Explore Zentinela with no sign-up or commitment. Experience instant clarity through powerful open-source intelligence services.',
     appStoreUrl: '#',
     googlePlayUrl: '#'
 }
