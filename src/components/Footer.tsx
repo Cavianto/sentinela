@@ -39,22 +39,24 @@ const Footer: React.FC = () => {
                     {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground">Phone: {footerDetails.telephone}</a>}
 
                     {footerDetails.socials && (
-                        <div className="mt-5 flex items-center gap-5 flex-wrap">
-                            {Object.keys(footerDetails.socials).map(platformName => {
-                                if (platformName && footerDetails.socials[platformName]) {
-                                    return (
-                                        <Link
-                                            href={footerDetails.socials[platformName]}
-                                            key={platformName}
-                                            aria-label={platformName}
-                                        >
-                                            {getPlatformIconByName(platformName)}
-                                        </Link>
-                                    )
-                                }
-                            })}
-                        </div>
-                    )}
+    <div className="mt-5 flex items-center gap-5 flex-wrap">
+        {Object.keys(footerDetails.socials).map(platformName => {
+            if (platformName && footerDetails.socials[platformName]) {
+                return (
+                    <a
+                        href={footerDetails.socials[platformName]}
+                        key={platformName}
+                        aria-label={platformName}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {getPlatformIconByName(platformName)}
+                    </a>
+                )
+            }
+        })}
+    </div>
+)}
                 </div>
             </div>
             <div className="mt-8 md:text-center text-foreground-accent px-6">
