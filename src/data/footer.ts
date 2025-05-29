@@ -7,7 +7,7 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Insight You Can Trust",
     quickLinks: [
         {
             text: "Features",
@@ -22,8 +22,8 @@ export const footerDetails: {
             url: "#testimonials"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'hell@z.com',
+    telephone: '+1300 505 870',
     socials: {
         // github: 'https://github.com',
         x: 'https://x.com/x', // Changed from twitter to x
