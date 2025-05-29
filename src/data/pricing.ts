@@ -11,7 +11,7 @@ export const tiers: IPricing[] = [
             'Alias, Identity, and Sockpuppet Detection',
             'Dark Web & Breach Watchlist',
             'Relationship Timeline Reconstruction',
-            'Ongoing Threat Monitoring & Alert System (Optional Add-On)',
+            'Ongoing Threat Monitoring (Optional Add-On)',
         ],
     },
     {
