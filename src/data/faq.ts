@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `Are ${siteDetails.siteName}'s investigations legal and compliant with privacy laws?`,
+        answer: 'Yes. Zentinela strictly uses lawful, open-source intelligence (OSINT) methods. All information we gather is publicly available and accessed without breaching privacy laws or unauthorized systems. We fully comply with Australian privacy legislation and global OSINT ethical standards.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `Will the person I’m investigating know they’re being investigated?`,
+        answer: 'No. All investigations are conducted discreetly and confidentially. Since we only access publicly available information, there’s no direct contact with the subject and no traceable activity that alerts them to our review.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'What kinds of risks can your services uncover?',
+        answer: `We identify a range of digital and reputational risks, such as falsified credentials, problematic social media behavior (including hate speech, toxicity, or extremist alignment), leaked personal or corporate data, undisclosed relationships or affiliations, and reputational red flags found in media or online discussions.`
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'How current and accurate is the information you provide?',
+        answer: 'Our tools and analysts use real-time data sources to ensure information is current at the time of the investigation. We combine automated intelligence gathering with manual validation to ensure accuracy, context, and relevance.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'What’s the difference between HR Shield, Sentinel Watch, and Relationship Intel Suite?',
+        answer: 'HR Shield OSINT is designed for pre-employment vetting and digital background checks, while Sentinel Watch OSINT provides ongoing employee monitoring to detect emerging internal risks. Relationship Intel Suite focuses on personal relationship safety by validating individuals and mapping their connections.'
     }
 ];
