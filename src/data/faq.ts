@@ -2,6 +2,10 @@ import { IFAQ } from "@/types";
 import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
+      {
+        question: `What is OSINT and how does it work?`,
+        answer: 'OSINT stands for Open-Source Intelligence. It involves collecting and analyzing publicly available data from websites, social media, public records, forums, and more to generate actionable insights. At Zentinela, we use OSINT to uncover hidden risks, verify information, and provide clarity without breaching privacy or requiring intrusive methods.',
+    },
     {
         question: `Are ${siteDetails.siteName}'s investigations legal and compliant with privacy laws?`,
         answer: 'Yes. Zentinela strictly uses lawful, open-source intelligence (OSINT) methods. All information we gather is publicly available and accessed without breaching privacy laws or unauthorized systems. We fully comply with Australian privacy legislation and global OSINT ethical standards.',
