@@ -19,7 +19,7 @@ export const faqs: IFAQ[] = [
         answer: 'Our tools and analysts use real-time data sources to ensure information is current at the time of the investigation. We combine automated intelligence gathering with manual validation to ensure accuracy, context, and relevance.',
     },
     {
-        question: 'What’s the difference between HR Shield, Sentinel Watch, and Relationship Intel Suite?',
+        question: 'What distinguishes each of your services?',
         answer: 'HR Shield OSINT is designed for pre-employment vetting and digital background checks, while Sentinel Watch OSINT provides ongoing employee monitoring to detect emerging internal risks. Relationship Intel Suite focuses on personal relationship safety by validating individuals and mapping their connections.'
     }
 ];
