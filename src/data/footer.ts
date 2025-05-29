@@ -7,7 +7,7 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Insight You Can Trust",
+    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
     quickLinks: [
         {
             text: "Features",
@@ -22,12 +22,11 @@ export const footerDetails: {
             url: "#testimonials"
         }
     ],
-    email: 'hello@z.com',
-    telephone: '1300 505 870',
+    email: 'address@yoursite.com',
+    telephone: '+1 (123) 456-7890',
     socials: {
         // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
+        x: 'https://twitter.com/Twitter', // Changed from twitter to x
         facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
         linkedin: 'https://www.linkedin.com',
