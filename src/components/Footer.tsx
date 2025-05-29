@@ -39,30 +39,30 @@ const Footer: React.FC = () => {
                     {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground">Phone: {footerDetails.telephone}</a>}
 
                     {footerDetails.socials && (
-    <div className="mt-5 flex items-center gap-5 flex-wrap">
-        {Object.keys(footerDetails.socials).map(platformName => {
-            if (platformName && footerDetails.socials[platformName]) {
-                return (
-                    <a
-                        href={footerDetails.socials[platformName]}
-                        key={platformName}
-                        aria-label={platformName}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {getPlatformIconByName(platformName)}
-                    </a>
-                )
-            }
-        })}
-    </div>
-)}
+                        <div className="mt-5 flex items-center gap-5 flex-wrap">
+                            {Object.keys(footerDetails.socials).map(platformName => {
+                                if (platformName && footerDetails.socials[platformName]) {
+                                    return (
+                                        <a
+                                            href={footerDetails.socials[platformName]}
+                                            key={platformName}
+                                            aria-label={platformName}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            {getPlatformIconByName(platformName)}
+                                        </a>
+                                    )
+                                }
+                            })}
+                        </div>
+                    )}
                 </div>
             </div>
             <div className="mt-8 md:text-center text-foreground-accent px-6">
                 <p>Copyright &copy; {new Date().getFullYear()} {siteDetails.siteName}. All rights reserved.</p>
-                <p className="text-sm mt-2 text-gray-500">Made with &hearts; by <a href="https://nexilaunch.com" target="_blank">Nexi Launch</a></p>
-                <p className="text-sm mt-2 text-gray-500">UI kit by <a href="https://ui8.net/youthmind/products/fintech-finance-mobile-app-ui-kit" target="_blank">Youthmind</a></p>
+                <p className="text-sm mt-2 text-gray-500">Made with &hearts; by <a href="https://nexilaunch.com" target="_blank" rel="noopener noreferrer">Nexi Launch</a></p>
+                <p className="text-sm mt-2 text-gray-500">UI kit by <a href="https://ui8.net/youthmind/products/fintech-finance-mobile-app-ui-kit" target="_blank" rel="noopener noreferrer">Youthmind</a></p>
             </div>
         </footer>
     );
