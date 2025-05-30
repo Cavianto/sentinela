@@ -1,10 +1,10 @@
 const Logos: React.FC = () => {
     return (
-        <section id="logos" className="py-32 px-5 bg-background">
+        <section id="logos" className="pt-16 pb-32 px-5 bg-background">
             <p className="text-lg font-medium text-center">
                 Powered by <span className="text-secondary">Proven</span> Investigation Tools
             </p>
-            <div className="mt-20 w-full flex flex-wrap flex-row items-center justify-evenly gap-5 sm:gap-10 opacity-45 logos-container">
+            <div className="mt-10 w-full flex flex-wrap flex-row items-center justify-evenly gap-5 sm:gap-10 opacity-45 logos-container">
                 {/* Spiderfoot */}
                 <img
                     src="/images/spiderfoot.png"
